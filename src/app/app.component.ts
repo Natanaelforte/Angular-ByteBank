@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { TransferenciaService } from './service/transferencia.service';
+
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'alura-app';
+
+
+
+  constructor(private service: TransferenciaService){
+
+  }
+
+
 }
